@@ -5,9 +5,9 @@
 
 #include <stdio.h>
 
-typedef vec3 color;
+typedef Vec3 Color;
 
-static inline void write_color(const color *pixel_color)
+static inline void write_color(const Color *pixel_color)
 {
     double r = vec3_x(pixel_color);
     double g = vec3_y(pixel_color);
